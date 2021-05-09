@@ -1,28 +1,0 @@
-
-t	java:S127$"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8¾ªÃõ/
-Z
-java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8“‹›ô/
-Q
-java:S6212"/Declare this local variable with "var" instead.(²€ª´ıÿÿÿÿ8äªÛÆ‘/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8ôÃ‰æ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(½ˆ¨üıÿÿÿÿ8¿§õä/
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(”Ü¿µ8¾ªÃõ/
-Q
-java:S6212"/Declare this local variable with "var" instead.(µ¼ÔÎüÿÿÿÿ8ñªÛÆ‘/
-K
-java:S6212"/Declare this local variable with "var" instead.(¿›ã:8òªÛÆ‘/
-L
-java:S6212"/Declare this local variable with "var" instead.(Åö¿8óªÛÆ‘/
-Q
-java:S6212"/Declare this local variable with "var" instead.(‰±Œ¢ùÿÿÿÿ8óªÛÆ‘/
-Q
-java:S6212("/Declare this local variable with "var" instead.(€ê±Õúÿÿÿÿ8ôªÛÆ‘/
-Q
-java:S6212)"/Declare this local variable with "var" instead.(¸½š‘şÿÿÿÿ8ôªÛÆ‘/
-L
-java:S6212-"/Declare this local variable with "var" instead.(´Ã¼¾8ôªÛÆ‘/
-L
-java:S62127"/Declare this local variable with "var" instead.(æÕ¿¼8õªÛÆ‘/
-Q
-java:S6212D"/Declare this local variable with "var" instead.(©ˆğ—şÿÿÿÿ8ùªÛÆ‘/

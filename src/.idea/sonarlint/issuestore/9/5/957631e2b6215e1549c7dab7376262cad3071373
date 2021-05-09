@@ -1,8 +1,0 @@
-
-s
-java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(öµ¹
-e	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(øÿÑüÿÿÿÿ
-x
-java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(òƒºÕıÿÿÿÿ
-E
-java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ
