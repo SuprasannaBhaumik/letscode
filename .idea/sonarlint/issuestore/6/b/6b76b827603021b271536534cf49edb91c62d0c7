@@ -1,16 +1,0 @@
-
-8
-java:S3626"Remove this redundant jump.(ÉŠ©ƒ8·İÍ‚/
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Š¶¹É8·İÍ‚/
-L
-java:S6212"/Declare this local variable with "var" instead.(ô‘å8­“—ì‘/
-Q
-java:S6212"/Declare this local variable with "var" instead.(ØÕ—©ıÿÿÿÿ8¯“—ì‘/
-Q
-java:S6212"/Declare this local variable with "var" instead.(Ã–í¡øÿÿÿÿ8·“—ì‘/
-C
-java:S1168"&Return an empty array instead of null.(¥¹ï8·İÍ‚/
-K
-java:S1172!".Remove this unused method parameter "results".(µˆ¡ô8€è‰ƒ/
-]	java:S125""<This block of commented-out lines of code should be removed.(°ò»şÿÿÿÿ8ğ¾Œƒ/
