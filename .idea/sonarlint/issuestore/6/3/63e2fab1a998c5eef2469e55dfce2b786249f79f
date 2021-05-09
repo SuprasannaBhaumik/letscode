@@ -1,0 +1,16 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ú·¸”/
+h
+java:S1128"FRemove this unused import 'java.util.concurrent.atomic.AtomicBoolean'.(§­‹¼üÿÿÿÿ8Ú·¸”/
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ú·¸”/
+M	java:S106"9Replace this use of System.out or System.err by a logger.(²·œ$
+m
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¨Ü±•üÿÿÿÿ
+J
+java:S6212("/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ
+E
+java:S6212)"/Declare this local variable with "var" instead.(æÕ¿¼
+7
+java:S11166"Remove this empty statement.(«¾·÷úÿÿÿÿ
