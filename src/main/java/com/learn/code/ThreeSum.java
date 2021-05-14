@@ -1,9 +1,7 @@
 package com.learn.code;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class ThreeSum {
 
@@ -18,13 +16,7 @@ public class ThreeSum {
             return answerList;
         }
         for(int i=0; i< nums.length; i++) {
-            if( i==8) {
-                System.out.println("ha");
-            }
             for (int j = i+1; j < nums.length; j++) {
-                if( j==10) {
-                    System.out.println("ha");
-                }
                 List<Integer> individualList = new ArrayList<>();
                 int result = -(nums[i] + nums[j]);
                 List<Integer> newList = createList(nums);
@@ -35,8 +27,6 @@ public class ThreeSum {
                     individualList.add(nums[j]);
                     individualList.add(result);
                     if (answerList.size() == 0 || !checkIfEntriesExist(individualList, answerList)) {
-                        System.out.println("added this list now ");
-
                         answerList.add(individualList);
                     }
                 }
@@ -54,53 +44,19 @@ public class ThreeSum {
     }
 
     private static boolean checkIfEntriesExist(List<Integer> individualList, List<List<Integer>> answerList) {
-        System.out.println("-----------start of method -----------");
-        /*AtomicBoolean flag = new AtomicBoolean(true);
-        answerList.forEach( specificList -> {
-            for (int num: individualList) {
-                if(specificList.contains(num)) {
-                    specificList.remove(specificList.indexOf(num));
-                }
-            }
-            if(specificList.size() == 0) {
-                flag.set(flag.get() && false);
-            }
-        });
-        return flag.get();*/
-
-        /*AtomicBoolean flag = new AtomicBoolean(true);
-        answerList.forEach( specificList -> {
-            for (int num: individualList) {
-                flag.set(flag.get() && specificList.contains(num));
-            }
-        });*/
-
-        //answer list is complete set
-        //specificList -> part of answer list
-        //individualList -> what we need to compare
         for(int i=0; i<answerList.size(); i++) {
             List<Integer> specificList = new ArrayList<>(answerList.get(i));
-            for (int number: specificList) {
-                System.out.println(number);
-            }
-            System.out.println("=================");
             boolean match = true;
             for(int j=0; j< individualList.size(); j++) {
-                System.out.println("Individual element ->" + individualList.get(j));
-                System.out.println("does specificlist contain our element already -> " + specificList.contains(individualList.get(j)));
                 match = match && specificList.contains(individualList.get(j));
                 if(specificList.contains(individualList.get(j))) {
                     specificList.remove(specificList.indexOf(individualList.get(j)));
                 }
-                System.out.println("current match ->" + match);
             }
-            System.out.println("overall match ->" + match);
             if(match) {
                 return true;
             }
-
         }
-        System.out.println("-----------end of method -----------" + false);
         return false;
     }
 }
