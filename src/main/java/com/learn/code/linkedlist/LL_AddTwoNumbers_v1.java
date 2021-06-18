@@ -1,12 +1,5 @@
 
-package com.learn.code;
-
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+package com.learn.code.linkedlist;
 
 public class LL_AddTwoNumbers_v1 {
 

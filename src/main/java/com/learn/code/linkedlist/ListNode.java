@@ -1,4 +1,4 @@
-package com.learn.code;
+package com.learn.code.linkedlist;
 
 public class ListNode {
     int val;
