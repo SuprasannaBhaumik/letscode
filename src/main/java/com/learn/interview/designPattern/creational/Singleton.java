@@ -1,4 +1,4 @@
-package com.learn.interview.designPattern;
+package com.learn.interview.designPattern.creational;
 
 public class Singleton {
 
