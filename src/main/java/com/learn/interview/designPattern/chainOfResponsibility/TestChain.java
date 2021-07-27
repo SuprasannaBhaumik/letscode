@@ -11,7 +11,7 @@ public class TestChain {
         chain1.setNextChain(chain2);
         chain2.setNextChain(chain3);
 
-        Numbers numbers = new Numbers(4, 2, "add");
+        Numbers numbers = new Numbers(4, 2, "sub");
 
         chain1.calculate(numbers);
 
